@@ -1,0 +1,24 @@
+.gpane{
+    -fx-background-color: lightblue;
+    -fx-padding: 40;
+ }
+#imagesize {
+    -fx-fit-width: 150px;
+    -fx-fit-height: 150px;
+    -fx-fit-width: 100%;
+    -fx-fit-height: 100%;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0, 0, 0);
+
+     -fx-transition: all 0.3s;
+}
+
+#imagesize: hover {
+     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 15, 0, 0, 0);
+
+}
+
+.pane {
+    -fx-fit-width: 100%;
+    -fx-fit-height: 100%;
+}
